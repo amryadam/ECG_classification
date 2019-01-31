@@ -19,7 +19,7 @@ load '.\data\PTB[MI+HC][50].mat';
 % trainLabels = [pLabels(typeList);nLabels];
 % trainLabels( trainLabels>0 ) = 1;
 %--------------------------------------------------------------------------
-% % % %两类分类
+% % % %fixed
 % % typeList = [find(pLabels==1);];
 % % trainBags = [pBags(typeList);nBags];
 % % trainLabels = [pLabels(typeList);nLabels];
